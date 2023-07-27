@@ -1,7 +1,6 @@
 <script setup>
 import { useCategoryStore } from '@/stores/category.js'
 const categoryStore = useCategoryStore()
-console.log(categoryStore.navData);
 </script>
 
 <template>
